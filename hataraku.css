@@ -1,0 +1,21 @@
+/*
+	hataraku
+		http://hataraku-ikiru.com/archives/lddesign-article.html
+*/
+
+.article-body-inner h2{
+    margin: 0 0 1.5em;
+    padding: 0.8em;
+    background: #78A839;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.article-body-inner h3 {
+    margin: 0 0 1.5em;
+    padding: 0.8em;
+    border-left: 7px solid #78A839;
+    border-bottom: 2px dashed #78A839;
+}

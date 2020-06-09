@@ -1,0 +1,60 @@
+/*
+	Haitaka
+		https://haitaka22.com/cocoon-step6/
+*/
+
+/* 見出しをリセット */
+.article h2 {
+padding: 0;
+background: none;
+}
+.article h3 {
+border: none;
+padding: 0;
+}
+.article h4 {
+border: none;
+padding: 0;
+}
+.article h5 {
+border: none;
+padding: 0;
+}
+.article h6 {
+border: none;
+padding: 0;
+}
+
+/* 見出しを再セット */
+.article h2 {
+color: #333; /*文字の色を変更*/
+padding: .8em 1em;
+margin-top: 80px;
+background: #ffffe0; /*内側の色を変更*/
+border-top: 4px solid #ff7f50; /*線の色を変更*/
+border-bottom: 4px solid #ff7f50; /*線の色を変更*/
+}
+.article h3 {
+color: #333; /*文字の色を変更*/
+padding: .5em 0;
+margin-top: 40px;
+border-top: 3px solid #ff7f50; /*線の色を変更*/
+border-bottom: 3px solid #ff7f50; /*線の色を変更*/
+}
+.article h4 {
+color: #333; /*文字の色を変更*/
+padding: .2em 1em;
+margin-top: 40px;
+border-left: 6px solid #ff7f50; /*線の色を変更*/
+}
+.article h5 {
+color: #333; /*文字の色を変更*/
+margin-top: 40px;
+border-bottom: solid 2px #ff7f50; /*線の色を変更*/
+}
+.article h6 {
+color: #333; /*文字の色を変更*/
+margin-top: 40px;
+border-bottom: solid 1px #ff7f50; /*線の色を変更*/
+}
+

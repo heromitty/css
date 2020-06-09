@@ -1,0 +1,27 @@
+/*
+	ゲームの仕様書を書こう４　仕様書作成で楽をするconfluenceの活用 
+		https://www.slideshare.net/ChizuruSugimoto/confluence-173333413?from_m_app=ios
+*/
+
+.wiki-content h1 {
+	font-size: 24px;
+}
+
+wiki-content h2 {
+	background-color: #eeeeee;
+	font-size: 20px;
+	padding: .1em.2em.1em.2em;
+}
+
+wiki-content h3 {
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: dotted 2px #999999;
+}
+
+wiki-content h4 {
+	font-size: 18px;
+	border-left: 7px solid #888888;
+	font-weight: normal;
+	padding: 0em.3em;
+}

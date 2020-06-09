@@ -1,0 +1,33 @@
+/*
+	hayashi
+		https://hayashikejinan.com/webwork/css/725/
+*/
+
+@charset "UTF-8";
+
+/* fontawesome web font */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+	color: #E44D26; /* アイコンの色、適宜変更のこと */
+	content: "\f00c";
+	font-family: "FontAwesome",sans-serif;
+	margin-right: 5px; /* アイコン右マージン */
+}
+
+/* 見出し下パディング */
+h1, h2, h3, h4, h5, h6 { padding-bottom: 15px }
+
+/* 見出し下ボーダー */
+h1 { border-bottom: 10px solid #DDDDDD; }
+h2 { border-bottom: 8px solid #DDDDDD; }
+h3 { border-bottom: 6px solid #DDDDDD; }
+h4 { border-bottom: 4px solid #DDDDDD; }
+h5 { border-bottom: 2px solid #DDDDDD; }
+h6 { border-bottom: 1px solid #DDDDDD; }
