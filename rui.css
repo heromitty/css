@@ -87,6 +87,10 @@ h2 {
 	background: #e0edff;
 }
 
+/*
+:befor‚Æ:after‚É‚Â‚¢‚Ä
+	https://saruwakakun.com/html-css/basic/before-after
+ */
 h2:after {
 	position: absolute;
 	content: '';

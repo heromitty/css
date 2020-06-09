@@ -1,0 +1,105 @@
+#toc_container{
+ display: block !important;
+ width: 95% !important;
+ margin: 36px auto;              /* 上下の余白　左右中央寄せ */
+ border-radius: 6px;             /* 外枠の角丸 */
+ font-size: 100%;                /* 文字サイズ */
+ box-sizing: border-box;         /* スマホの横揺れ防止 */
+ padding-right: 16px;            /* 右内側の余白 */
+ padding-left: 10px;             /* 左内側の余白 */
+ background-color: #fffcea;      /* 背景色 */
+ border: 1px solid #337ab7;      /* 外枠の設定 */
+}
+
+#toc_container .toc_title{
+ font-size: 110%;                     /* タイトルの文字の大きさ */
+ font-weight:600;                     /* テキストの太さ */
+ color: #337ab7;                      /* タイトルの文字色 */
+ text-align: center;                  /* 左右中央寄せ */
+ border-bottom: 1px solid #337ab7;    /* ボダーラインの設定 */
+ max-width:40%;                       /* 横幅を40%に */
+ margin: 20px auto;                   /* 上下の余白 */
+}
+
+/* タイトル前のアイコン　FontAwesomeの設定 */
+#toc_container .toc_title:before{
+ content: "\f24d";               /* FontAwesomeのユニコード */
+ font-family: "Font Awesome 5 Free";
+ padding-right: 10px;            /* アイコンの右余白 */
+ font-size:20px;                 /* アイコンの大きさ */
+ color: #F89174;                 /* アイコンのカラー */
+ font-weight: bold;
+}
+
+#toc_container .toc_toggle a{
+ color: #808080;                 /* 非表示のフォントカラー */
+}
+/* 見出1（h2）の文頭に番号を設置 */
+#toc_container ul{
+ counter-reset:number;    /* 番号の初期値を0にリセット */
+ list-style:none;         /* リストのスタイルなし */
+}
+
+#toc_container ul li{
+ line-height: 1.75em;      /* 行の高さ */
+ margin-bottom: 0.5em;     /* 下方の余白 */
+ margin-top: 1.3em;        /* 上方の余白 */
+}
+
+/* 見出1（h2）のナンバリングを自動出力 */
+#toc_container ul li:before{
+ counter-increment: number;  /* 番号を一個づつ増加 */
+ content: counter(number);   /* 番号がカウントされていく */
+ color: #337ab7;             /* 番号のカラー */
+ padding-right:12px;         /* 番号の右余白 */
+ margin-left:-30px;          /* 番号の外側左余白を調整 */
+}
+
+#toc_container ul li a{
+ margin-top: -1.5em;              /* 上の余白調整 */
+ display: block;
+ color: #337ab7;                  /* リンクテキストのカラー */
+ text-decoration:none;            /* 装飾なし */
+ border-bottom: 1px dotted #999;  /* 下線の設定 */
+}
+
+#toc_container ul li a:hover{
+ color: #F89174;              /* マウスオーバー時のカラー */
+ text-decoration: none;       /* 装飾なし */
+}
+
+#toc_container .toc_list > li > a {
+ border-bottom: 1px solid #337ab7;   /* 見出1（h2）のボダーラインの設定 */
+ font-size: 110%;                    /* 見出1（h2）の文字サイズ */
+}
+
+#toc_container ul ul{
+ margin-top: 1.15em;         /* 上の余白調整 */
+}
+/* 見出し(h3・h4) */
+#toc_container ul ul li{
+ line-height: 1.5em;        /* 行の高さ */
+ font-size: 100%;           /* 文字サイズ */
+ margin-left: -10px;        /* 左の余白調整 */
+}
+
+/* 見出し(h3・h4)前のアイコン　FontAwesomeの設定 */
+#toc_container ul ul li:before{
+ content: "\f138";                /* FontAwesomeのユニコード */
+ font-family: "Font Awesome 5 Free";
+ margin-left: -25px;              /* アイコンの位置を調整 */
+ color: #737373;                  /* アイコンのカラー */
+ font-weight: bold;               /* 太字指定がないと \f138 は表示されない */
+}
+/* 見出し(h3・h4) */
+#toc_container ul ul li a{
+ color: #3d3d3d;                 /* リンクテキストのカラー */
+ font-weight: normal;            /* テキストの太さ */
+ padding-right: 6px;             /* 右余白 */
+ text-decoration: none;          /* 装飾なし */
+}
+
+#toc_container ul ul li a:hover{
+ color: #F89174;                  /* マウスオーバー時のカラー */
+ text-decoration: none;           /* マウスオーバー時装飾なし */
+}
