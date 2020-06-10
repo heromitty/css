@@ -2,12 +2,12 @@
 	masaa
 		https://masaa.net/2018/10/23/post-181019-1/
 */
-.article h1,
-.article h2,
-.article h3,
-.article h4,
-.article h5,
-.article h6{ /*見出し初期化*/
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3,
+.wiki-content h4,
+.wiki-content h5,
+.wiki-content h6{ /*見出し初期化*/
   padding: 0;
   margin: 0;
   font-size: medium;
@@ -21,7 +21,7 @@
   position:relative;
 }
 
-.article h1{ /*見出し１（タイトル）カスタマイズ*/
+.wiki-content h1{ /*見出し１（タイトル）カスタマイズ*/
   background: #ffddee; /*背景カラー*/
   font-size: 22px; /*フォントサイズ*/
   letter-spacing: 1px; /*文字間隔*/
@@ -32,7 +32,7 @@
   border-radius: 3px; /*角丸コーナー*/
   }
 
-.article h2{ /*見出し２カスタマイズ*/
+.wiki-content h2{ /*見出し２カスタマイズ*/
   background: #fff2f9; /*背景カラー*/
   font-size: 20px; /*フォントサイズ*/
   letter-spacing: 2px; /*文字間隔*/
@@ -43,7 +43,7 @@
   line-height: 27px; /*高さ*/
 }
 
-.article h3{ /*見出し３カスタマイズ*/
+.wiki-content h3{ /*見出し３カスタマイズ*/
   background: #fff2f9; /*背景カラー*/
   font-size: 18px; /*フォントサイズ*/
   letter-spacing: 2px; /*文字間隔*/
@@ -53,7 +53,7 @@
   line-height: 25px; /*高さ*/
 }
 
-.article h4{ /*見出し４カスタマイズ*/
+.wiki-content h4{ /*見出し４カスタマイズ*/
   background: #fff2f9; /*背景カラー*/
   font-size: 16px; /*フォントサイズ*/
   letter-spacing: 2px; /*文字間隔*/
@@ -63,7 +63,7 @@
   line-height: 23px; /*高さ*/
 }
 
-.article h5{ /*見出し５カスタマイズ*/
+.wiki-content h5{ /*見出し５カスタマイズ*/
   background: #fff2f9; /*背景カラー*/
   font-size: 16px; /*フォントサイズ*/
   letter-spacing: 2px; /*文字間隔*/
@@ -76,7 +76,7 @@
   box-shadow: 3px 3px 2px rgba(0,0,0,0.3); /*シャドー*/
 }
 
-.article h6{ /*見出し６カスタマイズ*/
+.wiki-content h6{ /*見出し６カスタマイズ*/
   font-size: 16px; /*フォントサイズ*/
   letter-spacing: 2px; /*文字間隔*/
   margin: 35px 0px 20px 0px;
@@ -86,7 +86,7 @@
   border-radius: 10px; /*角丸コーナー*/
   position: relative;
 }
-.article h6::after{ /*見出し６の逆三角部分のカスタマイズ*/
+.wiki-content h6::after{ /*見出し６の逆三角部分のカスタマイズ*/
   position: absolute;
   top: 100%;
   left: 20px;

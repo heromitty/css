@@ -2,7 +2,7 @@
 	upupu
 		http://upupulife.blog.jp/livedoorblog-mazuyarukoto.html
 */
-.article-body-inner h2{
+.wiki-content h2{
     margin: 0 0 1.5em;
     padding: 0.8em;
     background: #87cefa;
@@ -12,13 +12,13 @@
     -moz-border-radius: 5px;
 }
 
-.article-body-inner h3 {
+.wiki-content h3 {
     margin: 0 0 1.5em;
     padding: 0.8em;
     border-left: 7px solid #87cefa;
     border-bottom: 2px dashed #87cefa;
 }
 
-.article-body-inner h4 {
+.wiki-content h4 {
 background: linear-gradient(transparent 70%, #87cefa 70%);
 }

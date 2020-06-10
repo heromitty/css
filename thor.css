@@ -3,7 +3,7 @@
 		https://masaa.net/2019/04/04/post-190327-2/
 */
 
-.dividerBottom h1 { /*見出し1（タイトル）カスタマイズ*/
+.wiki-content h1 { /*見出し1（タイトル）カスタマイズ*/
 	position: relative;
 	background: #ffddee; /*背景カラー*/
 	font-size: 22px; /*フォントサイズ*/
@@ -14,7 +14,7 @@
 	line-height: 35px; /*高さ*/
 	border-radius: 3px; /*角丸コーナー*/
 }
-.dividerBottom h1::after{ /*見出し1折り目部分*/
+.wiki-content h1::after{ /*見出し1折り目部分*/
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -25,12 +25,8 @@
 	border-color: #fff #fff #ddd #ddd;
 	box-shadow: -1px 1px 2px rgba(0, 0, 0, .1);
 }
-.archiveHead__subtitle { /*カテゴリーアーカイブ時の見出し1(タイトル)位置調整*/
-	margin-bottom: 15px;
-	font-size: 1.2rem;
-}
 
-.content h2 { /*見出し2カスタマイズ*/
+.wiki-content h2 { /*見出し2カスタマイズ*/
 	position: relative;
 	background: #fff2f9; /*背景カラー*/
 	font-size: 20px; /*フォントサイズ*/
@@ -41,7 +37,7 @@
 	border-bottom: 1px solid #fe619a; /*アンダーラインの太さとカラー*/
 	line-height: 27px; /*高さ*/
 }
-.content h2::after{ /*見出し2折り目部分*/
+.wiki-content h2::after{ /*見出し2折り目部分*/
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -53,7 +49,7 @@
 	box-shadow: -1px 1px 2px rgba(0, 0, 0, .1);
 }
 
-.content h3{ /*見出し3カスタマイズ*/
+.wiki-content h3{ /*見出し3カスタマイズ*/
 	position: relative;
 	background: #fff2f9; /*背景カラー*/
 	font-size: 18px; /*フォントサイズ*/
@@ -63,7 +59,7 @@
 	border-left: 5px solid #fe619a; /*左ラインの太さとカラー*/
 	line-height: 25px; /*高さ*/
 }
-.content h3::after{ /*見出し3折り目部分*/
+.wiki-content h3::after{ /*見出し3折り目部分*/
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -75,7 +71,7 @@
 	box-shadow: -1px 1px 2px rgba(0, 0, 0, .1);
 }
 
-.content h4{ /*見出し4カスタマイズ*/
+.wiki-content h4{ /*見出し4カスタマイズ*/
 	position: relative;
 	background: #fff2f9; /*背景カラー*/
 	font-size: 16px; /*フォントサイズ*/
@@ -85,7 +81,7 @@
 	border-left: 2px solid #fe619a; /*左ラインの太さとカラー*/
 	line-height: 23px; /*高さ*/
 }
-.content h4::after{ /*見出し4折り目部分*/
+.wiki-content h4::after{ /*見出し4折り目部分*/
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -97,7 +93,7 @@
 	box-shadow: -1px 1px 2px rgba(0, 0, 0, .1);
 }
 
-.content h5{ /*見出し５カスタマイズ*/
+.wiki-content h5{ /*見出し５カスタマイズ*/
 	background: #fff2f9; /*背景カラー*/
 	font-size: 16px; /*フォントサイズ*/
 	letter-spacing: 2px; /*文字間隔*/
