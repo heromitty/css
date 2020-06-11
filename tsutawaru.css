@@ -6,64 +6,66 @@
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
 .wiki-content h1 {
-  position: relative;
-  line-height: 1.4;
-  padding:0.25em 1em;
-  display: inline-block;
-  top:0;
+    position: relative;
+    line-height: 1.4;
+    padding:0.25em 1em;/*上下 左右*/
+    display: inline-block;
+    top:0;
 }
 
 .wiki-content h1:before,
 .wiki-content h1:after { 
-  position: absolute;
-  top: 0;
-  content:'';
-  width: 8px;
-  height: 100%;
-  display: inline-block;
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 8px;
+    height: 100%;
+    display: inline-block;
 }
 
 .wiki-content h1:before {
-  border-left: solid 1px black;
-  border-top: solid 1px black;
-  border-bottom: solid 1px black;
-  left: 0;
+    border-left: solid 1px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    left: 0;
 }
 
 .wiki-content h1:after {
-  content: '';
-  border-top: solid 1px black;
-  border-right: solid 1px black;
-  border-bottom: solid 1px black;
-  right: 0;
+    content: '';
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    right: 0;
 }
 
 .wiki-content h2 {
-  position: relative;/*相対位置*/
-  padding: 0.5em 0.0em 0.5em 0.5em;/*アイコン分のスペース*/
-  line-height: 1.4;/*行高*/
-  border-top: dotted 1px gray;
-  border-bottom: dotted 1px gray;
-  background:     #EEFFFF;
+    position: relative;
+    margin: 1.5em 0 0.25em;/* 上 左右 下 */
+    padding: 0.5em 0.0em 0.5em 0.5em;/* 上 右 下 左 */
+    line-height: 1.4;/*行高*/
+    border-top: dotted 1px gray;
+    border-bottom: dotted 1px gray;
+    background: #a5dff9;
 }
 
 .wiki-content h3 {
-  position: relative;
-  padding-left: 1.2em;/*アイコン分のスペース*/
-  line-height: 1.4;
+    position: relative;
+    padding: 0.5em;
+    padding-left: 1.2em;/*アイコン分のスペース*/
+    line-height: 1.4;
 }
 
 .wiki-content h3:before {
-  font-family: "FontAwesome", sans-serif;
-  content: "\f058";/*アイコンのユニコード*/
-  position: absolute;/*絶対位置*/
-  font-size: 1em;/*サイズ*/
-  left: 0;/*アイコンの位置*/
-  top: 0;/*アイコンの位置*/
-  color: #5ab9ff; /*アイコン色*/
+    position: absolute;/*絶対位置*/
+    left: 0;/*アイコンの位置*/
+    top: 0.5em;/*アイコンの位置*/
+    font-family: "FontAwesome", sans-serif;
+    content: "\f058";/*アイコンのユニコード*/
+    font-size: 1em;/*サイズ*/
+    color: #5ab9ff; /*アイコン色*/
 }
 
 .wiki-content h4 {
-  padding: 0.0em 0.0em 0.0em 0.5em;
-  border-bottom: dashed 2px #6594e0;
+    padding: 0.0em 0.0em 0.0em 0.5em;/* 上 右 下 左 */
+    border-bottom: dashed 2px #6594e0;
 }
